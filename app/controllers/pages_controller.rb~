@@ -1,13 +1,24 @@
 class PagesController < ApplicationController
   def home
 	  @title = "Home"
+  	  root_path => '/'
+	  root_url => 'http://localhost:3000/'
   end
 
   def contact
 	  @title = "Contact"
+ 	  contact_path => '/contact'
+	  contact_url => 'http://localhost:3000/contact'
+
   end
 
   def about
-	  
+	  about_path => '/about'
+	  about_url => 'http://localhost:3000/about'
   end
+
+  def help
+	  @title = "Help"
+  end
+
 end
