@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	
+	<body>
+		
+		<h1>Users Listing</h1>
+		
+		<%= @users.name %>, <%= @users.email %>, <%= @users.region %>
+	</body>
+</html>
+
+
+
+
+

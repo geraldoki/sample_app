@@ -1,5 +1,10 @@
 module ApplicationHelper
-# define Global / Unique Title Header
+
+	def logo
+		logo = image_tag("/images/dtslogo.jpg", :alt => "Sample APP", :class => "round") 
+	end
+
+	# define Global / Unique Title Header
 	def title
 		base_title = "Rubby on the rails Tutorial Sample App"
 		if @title.nil?
@@ -8,7 +13,5 @@ module ApplicationHelper
 			"#{base_title} |#{@title}"
 		end
 	end
-root_path => '/'
-root_url => 'http://localhost:3000/'
 
 end
