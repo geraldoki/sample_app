@@ -6,7 +6,7 @@ source 'http://rubygems.org'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
  gem 'sqlite3'
-
+ gem 'gravatar_image_tag'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -19,8 +19,9 @@ end
  gem 'jquery-rails'
 
 group :development do
-       gem 'rspec-rails'
+      ##gem 'rspec-rails'
       ##gem 'annotate-models', '1.0.4'
+      ##gem 'ruby-debug19'
 end
 
 group :test do
