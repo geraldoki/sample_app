@@ -1,7 +1,7 @@
 module ApplicationHelper
 
 	def logo
-		logo = image_tag("/images/dtslogo.jpg", :alt => "Sample APP", :class => "round") 
+	 image_tag("/images/dtslogo.jpg", :alt => "Sample APP", :class => "round") 
 	end
 
 	# define Global / Unique Title Header
